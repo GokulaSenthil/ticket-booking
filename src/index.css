@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-image {
+  background-image: url('./assets/background_park.avif');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#root {
+  height: 100%;
+}
+
+.my-4 {
+  margin: 2rem 0;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.25rem;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.ticket-button {
+  border-radius: 25px;
+  border: black;
+  background: white;
+}
+
+.button-container {
+  padding: 4%;
+  width: fit-content;
+  background: cadetblue;
+  border-radius: 25px;
+}
+
+.btn:disabled{
+  background: white;
+}
